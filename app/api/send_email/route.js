@@ -24,7 +24,7 @@ export async function POST(req) {
             Please click the button below to securely provide the necessary details and complete the password change process:
         </p>
         
-        <a href="https://password-change-form.web.app" 
+        <a href="https://password-change-form-buzn.vercel.app" 
             style="display: inline-block; padding: 12px 24px; background-color: #2563eb; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 20px 0;">
             Update Password
         </a>
