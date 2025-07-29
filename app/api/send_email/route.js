@@ -1,12 +1,12 @@
+"use server";
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-console.log(process.env.RESEND_API_KEY)
+
 
 export async function POST(req) {
   const body = await req.json();
   const { toEmail } = body;
-  console.log(process.env.RESEND_API_KEY)
   try {
     const data = await resend.emails.send({
       from: 'Your App <onboarding@resend.dev>',
