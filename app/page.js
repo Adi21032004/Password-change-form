@@ -133,7 +133,7 @@ export default function PasswordChangeForm() {
               id="email"
               value={formData.email}
               onChange={(e) => handleInputChange("email", e.target.value)}
-              className={`w-full px-4 py-3 border-2 rounded-lg bg-gray-50 transition-all duration-300 focus:outline-none focus:bg-white placeholder-gray-500 ${
+              className={`w-full px-4 py-3 border-2 rounded-lg bg-gray-50 text-gray-600 transition-all duration-300 focus:outline-none focus:bg-white placeholder-gray-500 ${
                 errors.email
                   ? "border-red-500 bg-red-50"
                   : "border-gray-200 focus:border-blue-500 focus:shadow-lg focus:shadow-blue-500/10"
@@ -154,7 +154,7 @@ export default function PasswordChangeForm() {
                 id="oldPassword"
                 value={formData.oldPassword}
                 onChange={(e) => handleInputChange("oldPassword", e.target.value)}
-                className={`w-full px-4 py-3 pr-12 border-2 rounded-lg bg-gray-50 transition-all duration-300 focus:outline-none focus:bg-white placeholder-gray-500 ${
+                className={`w-full px-4 py-3 pr-12 border-2 rounded-lg bg-gray-50 text-gray-600 transition-all duration-300 focus:outline-none focus:bg-white placeholder-gray-500 ${
                   errors.oldPassword
                     ? "border-red-500 bg-red-50"
                     : "border-gray-200 focus:border-blue-500 focus:shadow-lg focus:shadow-blue-500/10"
@@ -183,7 +183,7 @@ export default function PasswordChangeForm() {
                 id="newPassword"
                 value={formData.newPassword}
                 onChange={(e) => handleInputChange("newPassword", e.target.value)}
-                className={`w-full px-4 py-3 pr-12 border-2 rounded-lg bg-gray-50 transition-all duration-300 focus:outline-none focus:bg-white placeholder-gray-500 ${
+                className={`w-full px-4 py-3 pr-12 border-2 rounded-lg bg-gray-50 text-gray-600 transition-all duration-300 focus:outline-none focus:bg-white placeholder-gray-500 ${
                   errors.newPassword
                     ? "border-red-500 bg-red-50"
                     : "border-gray-200 focus:border-blue-500 focus:shadow-lg focus:shadow-blue-500/10"
